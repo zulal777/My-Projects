@@ -26,3 +26,4 @@ function generate() {
   document.getElementById("firstColor").textContent = color1;
   document.getElementById("secondColor").textContent = color2;
 }
+document.onload = generate();
