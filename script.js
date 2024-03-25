@@ -9,7 +9,7 @@ function createHex() {
   }
   return hexCode1;
 }
-
+//
 function generate() {
   var deg = Math.floor(Math.random() * 360);
   let hex1 = createHex();
